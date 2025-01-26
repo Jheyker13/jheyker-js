@@ -14,7 +14,7 @@ window.onload = function() {
     "when I was sleeping",
     "while I was exercising",
     "during my lunch",
-    "while I was praying"
+    "while I was praying",
   ];
 
   let random1 = Math.floor(Math.random() * who.length);
@@ -24,4 +24,6 @@ window.onload = function() {
 
   document.querySelector("#excuse").innerHTML =
     who[random1] + action[random2] + what[random3] + when[random4];
+
+  console.log("Hello Rigo from the console!");
 };
